@@ -32,7 +32,6 @@
           top:0px;
           left:0px;
           width:100%;
-          font-size: 20px;
           font-weight: 700;
           font-family: 'Nunito Sans', sans-serif;
         }
@@ -48,10 +47,22 @@
         #header-img
         {
                     height: auto;
-                    width: 7em;
+                    
                     padding: 5px 0px 5px 40px
         }
-        
+        @media (min-width: 768px)
+        {
+          #header
+          {
+
+            font-size: 20px;
+          }
+          #header-img
+          {
+            width: 7em;
+          }
+
+        }
       
         
         form
